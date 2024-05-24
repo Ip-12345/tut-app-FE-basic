@@ -1,0 +1,156 @@
+:root{
+    --mainColor: black;
+}
+
+.mainSection{
+    display: flex;
+    background-color: var(--mainColor);
+    justify-content: space-around;
+    align-items: center;
+    height: 565px;
+    margin:0em 0em;  
+    left: 0;
+    right: 0;  
+}
+
+.contentBox{
+    width: 55%;
+    padding: 1em;
+}
+
+.contentBox h1{
+    font-size: 2em;
+    margin: 1em 1em;
+    color: rgb(255, 94, 0);
+    text-align:justify;
+    width: 100%;
+
+}
+
+.contentBox p{
+    font-size: 1.25em;
+    font-style:oblique;
+    color: rgb(255, 255, 255);
+    margin: 1em 1em;
+    text-align:justify;
+}
+
+.btnBox{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.btn{
+    border-radius: 0.3em;
+    border: 5px solid transparent;
+    background-image: linear-gradient(gray, gray),
+    radial-gradient(circle at bottom right, rgb(255, 60, 0), black);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    margin: 1em 1em;
+}
+
+.readMore{
+    padding: 1em 2em;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.imgContainer{
+    width: 30%;
+}
+
+.imgContainer img{
+    margin: auto;
+    display: block;
+    width: 100%;
+}
+
+@media screen and (max-width:1530px){
+    .copyright p{
+        margin-right: 2.3em;
+    }
+
+    .mainSection{
+        width: auto;
+    }
+}
+
+@media screen and (max-width:1530px){
+    html{
+        font-size: 14px;
+    }
+
+    .imgContainer{
+        width: 30%;
+    }
+}
+
+@media screen and (max-width:1310px){
+    html{
+        font-size: 13px;
+    }
+
+    .imgContainer{
+        width: 28%;
+        margin-bottom: 6em;
+    }
+
+    .contentBox{
+        margin-bottom: 8em;
+    }
+}
+
+@media screen and (max-width:1017px){
+    .mainSection{
+        flex-direction: column;
+    }
+
+    .contentBox{
+        margin-top: 1.5em;
+        margin-left: 1.5em;
+        margin-bottom: 1.5em;
+    }
+}
+
+@media screen and (max-width:1017px){
+    .mainSection{
+        height: fit-content;
+    }
+
+    .contentBox{
+        width: 80%;;
+    }
+}
+
+@media screen and (max-width:650px){
+        .contentBox{
+            width: 70%;
+        }
+}
+
+@media screen and (max-width:500px){
+    .contentBox{
+        width: 60%;
+        margin: 4em 0em;
+    }
+
+    .contentBox h1{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:300px){
+    .readMore{
+        text-align: center;
+        font-size: 14px;
+
+    }
+
+    .contentBox h1{
+        text-align: center;
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,140 @@
+.services{
+    background-color: black;
+    color: white;
+    padding: 0.5em 0em;
+    justify-content: space-around;
+    display: flex ;
+    left: 0;
+    right: 0;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+h1{
+    background-color: black;
+    color: white;
+    padding: 0.5em 1em;
+    text-align: center;
+    width: 100%;
+}
+
+.card{
+    width: 25%;
+    text-align: center;
+    box-shadow: 0 0 3px salmon;
+    padding: 2em;
+    margin-bottom: 2em;
+    margin-right: 1em;
+}
+
+.card h2{
+    margin-bottom: 0.6em;
+}
+
+p{
+    font-size: 20px;
+}
+
+.imgService{
+    width: 250px;
+    object-fit: contain;
+    margin-bottom: 0.6em;
+}
+
+@media screen and (max-width:1625px){
+    .services{
+        height: auto;
+    }
+}
+
+@media screen and (max-width:1400px){
+    
+    .services{
+        height: auto;
+    }
+
+    .imgService{
+        width: 250px;
+    }
+
+    p{
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width:1210px){
+    .imgService{
+        width: 220px;
+        margin-right: 1em;
+    }
+
+    p{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:1010px){
+    .imgService{
+        width: 180px;
+        margin-right: 3em;
+    }    
+
+    .services p{
+        font-size: 17px;
+    }
+
+    .btnBox{
+        margin: 1em 0em;
+    }
+
+    .btn{
+        font-size: 11px;
+   }
+}
+
+@media screen and (max-width:907px){
+    .services{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        height: 100%;
+    }
+
+    h1{
+        text-align: center;
+    }
+
+    .card{
+        width: 45%;
+        margin-bottom: 2em;
+        margin-right: 1em;
+ 
+    }
+}
+
+@media screen and (max-width:700px){
+    .services{
+        flex-direction: column;
+    }
+
+    .imgService{
+        width: 250px;
+    }
+}
+
+@media screen and (max-width:650px){
+    .imgService{
+        width: 200px;
+    }
+}
+
+@media screen and (max-width:550px){
+    .imgService{
+        width: 150px;
+    }
+
+    .card{
+        width: 250px;
+    }
+}

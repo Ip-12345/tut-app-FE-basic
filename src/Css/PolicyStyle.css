@@ -1,0 +1,32 @@
+.policy{
+    background-color: black;
+    color: white;
+    padding-left: 10em;
+    padding-right: 10em;
+    padding-bottom:5em;
+    text-align: justify;
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+}
+
+ul{
+    width: 65%;
+    margin-right: 7em;
+}
+
+li{
+    margin-bottom: 1em;
+}
+
+.imgpp{
+    width: 35%;
+}
+
+@media screen and (max-width:1530px){
+    .policy{
+        padding-bottom: 23em;
+        font-size: 20px;
+    }
+}
+
